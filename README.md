@@ -1,7 +1,7 @@
 # PolyMult
 Recursive FFT polynomial multiplication.
 
-This is an implementation of the method laid out in Ando Emerencia's paper on Huge integer multiplication.
+This is an implementation of the method laid out in Ando Emerencia's paper on Huge integer multiplication: http://www.cs.rug.nl/~ando/pdfs/Ando_Emerencia_multiplying_huge_integers_using_fourier_transforms_paper.pdf
 ## Usage
 The class multiplies two polynomials together using the Fast Fourier Transform. To achive this it calculates the complex roots of unity.
 
