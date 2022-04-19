@@ -19,3 +19,9 @@ b = [b_0, b_1, ..., b_(n-1), 0, 0, ..., 0]
 val = PolyMult().PolyMult(a,b)
 ```
 This will then produce a list of complex valued enteries where the modulus of each is equal to the coefficient of the respective degree.
+### IntMult
+This class adds the functionality for integer multiplication. example
+```
+val = IntMult().int_mult(a,b)
+```
+It is currently able to perform correct evaluations up and including 17 digit numbers. After that it appears that the roundoff errors compound enough to make the evaluation wrong after around the 17th digit in the product.
